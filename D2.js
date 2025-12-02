@@ -3,7 +3,7 @@
 */
 
 /*
-llet numb1 = 5;
+let numb1 = 5;
 let numb2 = 10;
 
 let numero = numb1 > numb2 ? numb1 : numb2;
@@ -25,27 +25,48 @@ let numero = numeroIntero === numb5 ? numb5 : numeroIntero + " not equil";
 console.log(numero);
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+let numb5 = 5;
+
+if (numb5 % 5 === 0) {
+  console.log("divisibile per 5");
+} else {
+  console.log("non divisibile per 5");
+}
+*/
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* 
+let numb1 = 4;
+let numb2 = 4;
+
+let valore = numb1 === 8 || numb2 === 8 ? "questo è un 8" : "non ci sono 8" || numb1 + numb1 === 8 ? "la somma fa 8" : "la somma non fa 8";
+
+console.log(valore);
+*/
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
+/*
+let totalShoppingCart = 10;
+let promo = 50;
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+if (totalShoppingCart >= promo) {
+  console.log("hai la spedizione gratuita");
+} else {
+  console.log("costo spedizione 10 euro");
+}
+*/
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
@@ -59,6 +80,18 @@ console.log(numero);
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
   Alla fine mostra il risultato in console.
 */
+
+let numb20 = 20;
+let numb10 = 10;
+let numb15 = 15;
+
+if (numb20 > numb10) {
+  console.log("1 è maggiore");
+} else if (numb20 > numb15) {
+  console.log("2 è maggiore");
+} else if (numb10 > numb15) {
+  console.log("3 è maggiore");
+}
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
