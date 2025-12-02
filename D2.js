@@ -81,23 +81,48 @@ if (totalShoppingCart >= promo) {
   Alla fine mostra il risultato in console.
 */
 
-let numb20 = 20;
-let numb10 = 10;
-let numb15 = 15;
+/*
+let n1 = 20;
+let n2 = 30;
+let n3 = 10;
 
-if (numb20 > numb10) {
-  console.log("1 è maggiore");
-} else if (numb20 > numb15) {
-  console.log("2 è maggiore");
-} else if (numb10 > numb15) {
-  console.log("3 è maggiore");
+if (n1 > n2) {
+  if (n3 > n1) {
+    console.log(n3, n1, n2);
+  }
 }
+if (n2 > n1) {
+  if (n3 > n2) {
+    console.log(n3, n2, n1);
+  }
+}
+if (n2 > n3) {
+  if (n1 > n2) {
+    console.log(n1, n2, n3);
+  }
+}
+if (n3 > n1) {
+  if (n2 > n3) {
+    console.log(n2, n3, n1);
+  }
+}
+if (n1 > n3) {
+  if (n2 > n1) {
+    console.log(n2, n1, n3);
+  }
+}
+*/
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
+
+let tipoValore = "2";
+if (typeof tipoValore === "number") {
+  console.log("è un numero");
+} else console.log("non è un numero");
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -119,7 +144,16 @@ if (numb20 > numb10) {
     }
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+let val = 7;
+if (val < 5) {
+  console.log("Meno di 5");
+} else if (val < 10) {
+  console.log("Meno di 10");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
+*/
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
